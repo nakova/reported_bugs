@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SOF230427-70] [TG4][Violina]User can not login with email starts with capital letter</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('http://jira.softacad.bg/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SOF230427-70]&nbsp;<a href="http://jira.softacad.bg/browse/SOF230427-70">[TG4][Violina]User can not login with email starts with capital letter</a>
+            <span class="subText">
+               Created: 28/May/23                   &nbsp;Updated: 16/Jun/23
+
+                                                    &nbsp;Resolved: 02/Jun/23
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Reopened</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="http://jira.softacad.bg/secure/BrowseProject.jspa?id=13902">Software-Testing_27-04-2023</a></td>
+    </tr>
+
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="1.1.1"
+                href="http://jira.softacad.bg/issues/?jql=project%3D13902%20AND%20%22affectedVersion%22%3D13718%20ORDER%20BY%20priority%20ASC"
+            >1.1.1</a>,                    <a title="2.0.0 - Release candidate"
+                href="http://jira.softacad.bg/issues/?jql=project%3D13902%20AND%20%22affectedVersion%22%3D13719%20ORDER%20BY%20priority%20ASC"
+            >2.0.0</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="2.0.0 - Release candidate"
+                href="http://jira.softacad.bg/issues/?jql=project%3D13902%20AND%20%22fixVersion%22%3D13719%20ORDER%20BY%20priority%20ASC"
+            >2.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Critical
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="violinan" id="word_reporter_violinan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=violinan">Violina Nakova</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="stephan" id="word_assignee_stephan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=stephan">Stephan Ashkenazy</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-32306-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            registration                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            0 minutes
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            1 hour, 45 minutes
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            0 minutes
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>OS Windows/ Chrome Version 113.0.5672.127 (Official Build) (64-bit)</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="http://jira.softacad.bg/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File" role="presentation">
+                    CLemailre.png &nbsp;&nbsp;&nbsp;
+                                    <img src="http://jira.softacad.bg/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File" role="presentation">
+                    emailCl.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10112-32306-value" class="value" bgcolor="#ffffff" width="80%">    Critical
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>scrum_team:</b></td>
+                <td id="customfield_10300-32306-value" class="value" bgcolor="#ffffff" width="80%">    TG4</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Pre-conditions:</p>
+<ol>
+	<li>The application is started <a href="http://poll-app5-20230427.softacad.bg/" class="external-link" target="_blank" rel="nofollow noopener">Polling App</a></li>
+	<li>The user is not logged in to the application</li>
+	<li>The user has no registration in the application</li>
+</ol>
+
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Click the Sign-up button.</li>
+	<li>The user is redirected to the registration form.</li>
+	<li>Fill in all mandatory fields:</li>
+</ol>
+
+
+<p>Fullname - David Wolfster<br/>
+Username - DavidW<br/>
+Email - David_wolf@yahoo.com<br/>
+Password - David123</p>
+
+<p><b><font color="#00875a">Expected results: The user profile is created with email in a valid format. No error messages. The user is logged in to the application.</font></b></p>
+
+<p><b><font color="#00875a"><a href="https://www.abstractapi.com/guides/email-address-format-validation" class="external-link" target="_blank" rel="nofollow noopener">https://www.abstractapi.com/guides/email-address-format-validation</a></font></b></p>
+
+<p><font color="#de350b"><b>Actual result: The error message is shown in the Email field.</b></font></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-25375"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="stephan" id="word_commented_stephan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=stephan">Stephan Ashkenazy</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">29/May/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-25375"><td bgcolor="#ffffff">
+            <p>Good job!</p>
+
+<p>But, can you show me where in the SRS is mentioned that capital letter in the email is allowed?</p>
+        </td></tr>
+                <tr id="comment-header-25383"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="stephan" id="word_commented_stephan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=stephan">Stephan Ashkenazy</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">29/May/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-25383"><td bgcolor="#ffffff">
+            <p>Excellent job!</p>
+
+<p>I was told that in version 1.0.4 we should expect some fixes. So, stay tuned and check when this version will be deployed.</p>
+
+<p>Thank you.</p>
+        </td></tr>
+                <tr id="comment-header-25393"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="violinan" id="word_commented_violinan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=violinan">Violina Nakova</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">29/May/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-25393"><td bgcolor="#ffffff">
+            <p>A good question Steph in SRS I found only this instruction for email:</p>
+
+<p>"The field shall accept a maximum of 40 characters</p>
+
+<p>The field shall accept only valid email formats."</p>
+
+<p>Because of this, I search on the Internet for Valid formats and found this :</p>
+
+<p>" A valid email address has four parts. They are:</p>
+<ul>
+	<li><b>Recipient name:</b> It represents an email mailbox that belongs to a person. It can also belong to an organization or a department within a company. The recipient name can be up to 64 characters long. It may consist of uppercase and lowercase letters in English <font color="#de350b"><b>(A-Z, a-z)</b>.</font> Also, it can have digits from 0 to 9, and special characters, such as:! # $ % &amp; ' * + - / = ? ^ _ ` { | .</li>
+	<li><b>@ symbol:</b> It is used to separate the recipient name from the domain name.</li>
+	<li><b>Domain name:</b> It defines a space on the internet owned by a specific mailbox provider, like Gmail and Yahoo Mail. It can be up to 253 characters long. It may consist of uppercase and lowercase letters in English (A-Z, a-z), digits from 0 to 9, a hyphen <img class="emoticon" src="http://jira.softacad.bg/images/icons/emoticons/forbidden.png" height="16" width="16" align="absmiddle" alt="" border="0"/>, and a period (.).</li>
+	<li><b>Top-level domain:</b> It is the highest level of the domain name system for the internet. It is placed after the domain name in an email address. Common top-level domains are: .com, .net, and .org."</li>
+</ul>
+
+
+<p>Therefore I consider the above to be a bug.</p>
+        </td></tr>
+                <tr id="comment-header-25459"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="violinan" id="word_commented_violinan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=violinan">Violina Nakova</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">02/Jun/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-25459"><td bgcolor="#ffffff">
+            <p>Hello Stephan, the bug is re-tested with the new version 1.0.4 and the problem still exists. </p>
+
+<p>Kind regards, </p>
+
+<p>Violina</p>
+        </td></tr>
+                <tr id="comment-header-25504"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="stephan" id="word_commented_stephan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=stephan">Stephan Ashkenazy</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">06/Jun/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-25504"><td bgcolor="#ffffff">
+            <p>Dears,</p>
+
+<p>You did a very good job. Please look forward to version 1.1.1 - once deployed to retest the issue.</p>
+
+<p>I will notify you accordingly.</p>
+
+<p>Thank you.</p>
+        </td></tr>
+                <tr id="comment-header-25532"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="stephan" id="word_commented_stephan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=stephan">Stephan Ashkenazy</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">13/Jun/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-25532"><td bgcolor="#ffffff">
+            <p>Dear Colleagues,</p>
+
+<p>Since we already deployed the latest application version, I don't want to change it till the end of our course. Because of this, I hope that in this 2.0.0 version, we have bug fixes and you can try to validate all of your open issues.<br/>
+Please, along with the rest of your duties, make an effort to validate as much as you can.</p>
+
+<p>Thank you in advance for your understanding and cooperation.</p>
+
+<p>Steph</p>
+        </td></tr>
+                <tr id="comment-header-25575"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="violinan" id="word_commented_violinan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=violinan">Violina Nakova</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">16/Jun/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-25575"><td bgcolor="#ffffff">
+            <p>Hi Steph, after retesting with version 2.0.0 this bug is not fixed. </p>
+
+<p>I hope you will fix it with the new version.</p>
+
+<p> </p>
+
+<p>Thank you!</p>
+
+<p>King regards,</p>
+
+<p>V.</p>
+        </td></tr>
+            </table>
+Generated at Thu Jul 06 18:49:49 EEST 2023 by Violina Nakova using Jira 8.20.7#820007-sha1:98f6b160ab2ff5d8f9ec9088d10ba11ef78e8764.
+
+</body>
+</html>

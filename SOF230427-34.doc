@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SOF230427-34] [TG4][Violina]The admin user is not logged out after 60 minutes session expired.</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('http://jira.softacad.bg/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SOF230427-34]&nbsp;<a href="http://jira.softacad.bg/browse/SOF230427-34">[TG4][Violina]The admin user is not logged out after 60 minutes session expired.</a>
+            <span class="subText">
+               Created: 17/May/23                   &nbsp;Updated: 17/May/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="http://jira.softacad.bg/secure/BrowseProject.jspa?id=13902">Software-Testing_27-04-2023</a></td>
+    </tr>
+
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="1.0.1 - Initial version application"
+                href="http://jira.softacad.bg/issues/?jql=project%3D13902%20AND%20%22affectedVersion%22%3D13714%20ORDER%20BY%20priority%20ASC"
+            >1.0.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="1.0.2"
+                href="http://jira.softacad.bg/issues/?jql=project%3D13902%20AND%20%22fixVersion%22%3D13715%20ORDER%20BY%20priority%20ASC"
+            >1.0.2</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="violinan" id="word_reporter_violinan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=violinan">Violina Nakova</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="stephan" id="word_assignee_stephan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=stephan">Stephan Ashkenazy</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-32242-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            logout                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            0 minutes
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            1 hour, 27 minutes
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows/ Chome Version 113.0.5672.93 (Official Build) (64-bit)</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10112-32242-value" class="value" bgcolor="#ffffff" width="80%">    Major
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>scrum_team:</b></td>
+                <td id="customfield_10300-32242-value" class="value" bgcolor="#ffffff" width="80%">    TG4</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Pre-conditions:</p>
+<ol>
+	<li>The user has a registration(profile).</li>
+	<li>The user is logged into the application.<br/>
+Test Data:<br/>
+password: 123456<br/>
+username: tg4admin</li>
+</ol>
+
+
+<p>Steps to reproduce:</p>
+<ol>
+	<li>Click the profile icon on the top left corner of the screen and verify that the user is login.</li>
+	<li>Waiting 60 minutes.</li>
+	<li>Refresh the page by clicking F5 button on the keyboard.</li>
+	<li>Verify that the user is logged out of the application.</li>
+</ol>
+
+
+<p><b><font color="#00875a">Expected result: The user is logged out of the application. The user is redirected to the login page.</font></b></p>
+
+<p><b><font color="#de350b">Actual result: The user is not logged out of the application.</font></b></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Wed May 17 14:49:35 EEST 2023 by Violina Nakova using Jira 8.20.7#820007-sha1:98f6b160ab2ff5d8f9ec9088d10ba11ef78e8764.
+
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SOF230427-31] [TG4][Violina] Misspelling word &quot;password&quot; in error message in login form</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('http://jira.softacad.bg/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SOF230427-31]&nbsp;<a href="http://jira.softacad.bg/browse/SOF230427-31">[TG4][Violina] Misspelling word &quot;password&quot; in error message in login form</a>
+            <span class="subText">
+               Created: 16/May/23                   &nbsp;Updated: 17/May/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Open</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="http://jira.softacad.bg/secure/BrowseProject.jspa?id=13902">Software-Testing_27-04-2023</a></td>
+    </tr>
+
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                                        <a title="1.0.1 - Initial version application"
+                href="http://jira.softacad.bg/issues/?jql=project%3D13902%20AND%20%22affectedVersion%22%3D13714%20ORDER%20BY%20priority%20ASC"
+            >1.0.1</a>                        </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Bug
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="violinan" id="word_reporter_violinan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=violinan">Violina Nakova</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="stephan" id="word_assignee_stephan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=stephan">Stephan Ashkenazy</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-32239-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            login                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            0 minutes
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            1 hour
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Environment:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>Windows/ Chome Version 113.0.5672.93 (Official Build) (64-bit)</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="http://jira.softacad.bg/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File" role="presentation">
+                    bandicam 2023-05-16 21-50-22-487.mp4 &nbsp;&nbsp;&nbsp;
+                                    <img src="http://jira.softacad.bg/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File" role="presentation">
+                    visual_bug.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Severity:</b></td>
+                <td id="customfield_10112-32239-value" class="value" bgcolor="#ffffff" width="80%">    Minor
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>scrum_team:</b></td>
+                <td id="customfield_10300-32239-value" class="value" bgcolor="#ffffff" width="80%">    TG4</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Steps to reproduce:</p>
+<ol>
+	<li> Navigate to the application URL. - <a href="http://poll-app5-20230427.softacad.bg/" class="external-link" target="_blank" rel="nofollow noopener">http://poll-app5-20230427.softacad.bg/</a></li>
+	<li>Leave email/username and password fields empty.</li>
+	<li>Click on the login button.</li>
+</ol>
+
+
+<p><b><font color="#57d9a3">Expected result: The user receives a message notifying of incorrect credentials.</font></b><br/>
+<b><font color="#57d9a3">The user is not logged into the application.</font></b><br/>
+<b><font color="#57d9a3">The user remains on the login page.</font></b><br/>
+<b><font color="#57d9a3">No grammatical mistakes in the text.</font></b></p>
+
+<p><font color="#de350b"><b>Actual result: The word "password" in the error message is misspelled and it is "passward".</b></font></p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-25210"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="stephan" id="word_commented_stephan" href="http://jira.softacad.bg/secure/ViewProfile.jspa?name=stephan">Stephan Ashkenazy</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">17/May/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-25210"><td bgcolor="#ffffff">
+            <p>Bravo Vili!</p>
+
+<p>Well done <img class="emoticon" src="http://jira.softacad.bg/images/icons/emoticons/thumbs_up.png" height="16" width="16" align="absmiddle" alt="" border="0"/></p>
+        </td></tr>
+            </table>
+Generated at Wed May 17 14:49:22 EEST 2023 by Violina Nakova using Jira 8.20.7#820007-sha1:98f6b160ab2ff5d8f9ec9088d10ba11ef78e8764.
+
+</body>
+</html>
